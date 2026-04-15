@@ -49,51 +49,6 @@ http://34.172.253.189/
 
 ---
 
-# 🚀 Stage 1 Personal API Deployment (DevOps Project)
-
-![Status](https://img.shields.io/badge/status-production--ready-brightgreen?style=for-the-badge)
-![FastAPI](https://img.shields.io/badge/FastAPI-blue?style=for-the-badge)
-![Nginx](https://img.shields.io/badge/Nginx-green?style=for-the-badge)
---
-
-## 👤 Author
-
-**Oluwayemisi Okunrounmu**
-
-- GitHub: https://github.com/Yemmmyc  
-- Email: yemmmyc@hotmail.com  
-
----
-
-## 📌 Project Overview
-
-This project is a production-style REST API deployed on a Linux VPS using DevOps practices.
-
-It demonstrates:
-
-- FastAPI backend development  
-- Nginx reverse proxy  
-- Systemd service management  
-- Cloud deployment (Ubuntu VPS)  
-
----
-
-## 🌐 Live URL
-
-http://34.172.253.189/
-
----
-
-## ⚙️ API Endpoints
-
-| Endpoint | Method | Response |
-|----------|--------|----------|
-| `/` | GET | `{ "message": "API is running" }` |
-| `/health` | GET | `{ "message": "healthy" }` |
-| `/me` | GET | `{ "name": "Oluwayemisi Okunrounmu", "email": "yemmmyc@hotmail.com", "github": "https://github.com/Yemmmyc" }` |
-
----
-
 ## 🏗️ Architecture Diagram
 
 ![Architecture](https://raw.githubusercontent.com/Yemmmyc/stage-1-api/main/architecture.png)

@@ -58,7 +58,6 @@ graph TD
     C --> D[FastAPI Application Uvicorn]
     D --> E[JSON Response API]
 
----
 
 🧱 Infrastructure Stack
 Ubuntu Linux Server

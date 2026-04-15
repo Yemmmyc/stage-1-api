@@ -1,6 +1,11 @@
 # 🚀 Stage 1 Personal API Deployment (DevOps Project)
 
----
+![Status](https://img.shields.io/badge/status-production--ready-brightgreen)
+![FastAPI](https://img.shields.io/badge/FastAPI-API-blue)
+![Nginx](https://img.shields.io/badge/Nginx-reverse--proxy-green)
+![Linux](https://img.shields.io/badge/Linux-server-yellow)
+
+--
 
 ## 👤 Author
 
@@ -51,9 +56,10 @@ http://34.172.253.189/
 ```mermaid
 graph TD
 A[User Browser] --> B[Nginx Reverse Proxy]
-B --> C[Systemd Service]
-C --> D[FastAPI App (Uvicorn)]
-D --> E[JSON Response]
+B --> C[Systemd Service Manager]
+C --> D[FastAPI Application (Uvicorn)]
+D --> E[JSON Response API]
+
 
 🧱 Infrastructure Stack
 Ubuntu Linux Server

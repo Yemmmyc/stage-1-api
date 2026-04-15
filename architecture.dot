@@ -1,0 +1,5 @@
+digraph G {
+    rankdir=LR;
+
+    User -> Nginx -> "Systemd Service" -> "FastAPI (Uvicorn)" -> JSON_Response;
+}

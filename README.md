@@ -57,38 +57,37 @@ graph TD
     B --> C[Systemd Service Manager]
     C --> D[FastAPI Application Uvicorn]
     D --> E[JSON Response API]
+```
 
+### 🧱 Infrastructure Stack
+- Ubuntu Linux Server
+- FastAPI (Python backend)
+- Uvicorn ASGI server
+- Nginx reverse proxy
+- Systemd service manager
 
-🧱 Infrastructure Stack
-Ubuntu Linux Server
-FastAPI (Python backend)
-Uvicorn ASGI server
-Nginx reverse proxy
-Systemd service manager
+### 🔐 Deployment Features
+- Nginx handles public traffic (port 80 / 443)
+- FastAPI runs internally on 127.0.0.1:8000
+- Systemd ensures auto-restart on reboot
+- Secure separation of concerns
 
-🔐 Deployment Features
-Nginx handles public traffic (port 80 / 443)
-FastAPI runs internally on 127.0.0.1:8000
-Systemd ensures auto-restart on reboot
-Secure separation of concerns
+### 🚀 How It Works
+- User sends request to server IP
+- Nginx receives request
+- Nginx forwards to FastAPI
+- FastAPI returns JSON response
+- Systemd keeps service alive
 
-🚀 How It Works
-User sends request to server IP
-Nginx receives request
-Nginx forwards to FastAPI
-FastAPI returns JSON response
-Systemd keeps service alive
+### 🎯 DevOps Skills Demonstrated
+- Linux server management
+- API deployment
+- Nginx configuration
+- Systemd service creation
+- Cloud hosting (VPS)
+- Production architecture design
 
-🎯 DevOps Skills Demonstrated
-Linux server management
-API deployment
-Nginx configuration
-Systemd service creation
-Cloud hosting (VPS)
-Production architecture design
-
-📦 Status
-
-✔ Fully deployed
-✔ Fully tested
-✔ Production-ready
+### 📦 Status
+- ✔ Fully deployed
+- ✔ Fully tested
+- ✔ Production-ready

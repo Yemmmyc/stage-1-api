@@ -1,10 +1,8 @@
 # 🚀 Stage 1 Personal API Deployment (DevOps Project)
 
-![Status](https://img.shields.io/badge/status-production--ready-brightgreen)
-![FastAPI](https://img.shields.io/badge/FastAPI-API-blue)
-![Nginx](https://img.shields.io/badge/Nginx-reverse--proxy-green)
-![Linux](https://img.shields.io/badge/Linux-server-yellow)
-
+![Status](https://img.shields.io/badge/status-production--ready-brightgreen?style=for-the-badge)
+![FastAPI](https://img.shields.io/badge/FastAPI-blue?style=for-the-badge)
+![Nginx](https://img.shields.io/badge/Nginx-green?style=for-the-badge)
 --
 
 ## 👤 Author
@@ -60,6 +58,7 @@ B --> C[Systemd Service Manager]
 C --> D[FastAPI Application (Uvicorn)]
 D --> E[JSON Response API]
 
+---
 
 🧱 Infrastructure Stack
 Ubuntu Linux Server

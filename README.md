@@ -53,10 +53,10 @@ http://34.172.253.189/
 
 ```mermaid
 graph TD
-A[User Browser] --> B[Nginx Reverse Proxy]
-B --> C[Systemd Service Manager]
-C --> D[FastAPI Application (Uvicorn)]
-D --> E[JSON Response API]
+    A[User Browser] --> B[Nginx Reverse Proxy]
+    B --> C[Systemd Service Manager]
+    C --> D[FastAPI Application Uvicorn]
+    D --> E[JSON Response API]
 
 ---
 

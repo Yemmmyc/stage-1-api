@@ -49,12 +49,6 @@ http://34.172.253.189/
 
 ---
 
-## 🏗️ Architecture Diagram
-
-![Architecture](https://raw.githubusercontent.com/Yemmmyc/stage-1-api/main/architecture.png)
-
----
-
 ## 🧱 System Architecture Flow
 
 ```mermaid

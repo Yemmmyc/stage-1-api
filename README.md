@@ -47,10 +47,12 @@ http://34.172.253.189/
 
 ### 1. Clone the repository
 git clone https://github.com/Yemmmyc/stage-1-api.git
+
 cd stage-1-api
 
 ### 2. Create virtual environment
 python3 -m venv venv
+
 source venv/bin/activate
 
 ### 3. Install dependencies

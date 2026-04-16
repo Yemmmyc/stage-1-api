@@ -46,25 +46,20 @@ http://34.172.253.189/
 ## 🖥️ How to Run Locally
 
 ### 1. Clone the repository
-```bash
 git clone https://github.com/Yemmmyc/stage-1-api.git
 cd stage-1-api
 
 ### 2. Create virtual environment
-```bash
 python3 -m venv venv
 source venv/bin/activate
 
 ### 3. Install dependencies
-```bash
 pip install -r requirements.txt
 
 ### 4. Run the application
-```bash
 uvicorn main:app --reload --host 127.0.0.1 --port 8000
 
 ### 5. Test in browser
-```bash
 http://127.0.0.1:8000/
 
 
